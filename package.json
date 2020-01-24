@@ -1,0 +1,27 @@
+{
+  "name": "@corabank/icons",
+  "version": "1.0.0",
+  "description": "Cora icon library",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --display-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corabank/front-icons.git"
+  },
+  "keywords": [
+    "icons"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corabank/front-icons/issues"
+  },
+  "homepage": "https://github.com/corabank/front-icons#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
