@@ -5,11 +5,12 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@corabank/icons": "file:..",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "@corabank/icons": "file:.."
+    "styled-components": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

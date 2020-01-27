@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 
-import * from '@corabank/icons'
+import HeaderBanner from './components/HeaderBanner'
+import IconDocs from './components/IconDocs';
 
 export default class App extends Component {
   render () {
     return (
-      <div>
-        <I/>
-      </div>
+      <React.Fragment>
+        <HeaderBanner />
+        <IconDocs />
+      </React.Fragment>
     )
   }
 }
