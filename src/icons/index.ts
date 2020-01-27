@@ -36,6 +36,45 @@ import { Close } from './Close';
 import { Contacts } from './Contacts';
 import { Copy } from './Copy';
 import { Delete } from './Delete';
+import { Edit } from './Edit';
+import { Email } from './Email';
+import { EyeHidden } from './EyeHidden';
+import { EyeVisible } from './EyeVisible';
+import { File } from './File';
+import { Filter } from './Filter';
+import { Fingerprint } from './Fingerprint';
+import { Gift } from './Gift';
+import { GraphArrowUp } from './GraphArrowUp';
+import { GraphDots } from './GraphDots';
+import { Home } from './Home';
+import { Invoice } from './Invoice';
+import { Lock } from './Lock';
+import { LockUnlocked } from './LockUnlocked';
+import { MenuNavigation } from './MenuNavigation';
+import { Money } from './Money';
+import { MoneyHand } from './MoneyHand';
+import { MoneySign } from './MoneySign';
+import { Notification } from './Notification';
+import { NotificationEmpty } from './NotificationEmpty';
+import { PeopleUsers } from './PeopleUsers';
+import { Person } from './Person';
+import { PersonAdd } from './PersonAdd';
+import { PersonCircle } from './PersonCircle';
+import { PinLocation } from './PinLocation';
+import { Plus } from './Plus';
+import { Question } from './Question';
+import { Reload } from './Reload';
+import { Rocket } from './Rocket';
+import { Search } from './Search';
+import { SearchX } from './SearchX';
+import { Settings } from './Settings';
+import { ShareAndroid } from './ShareAndroid';
+import { ShareIOS } from './ShareIOS';
+import { SignOutOff } from './SignOutOff';
+import { Support } from './Support';
+import { TimeClock } from './TimeClock';
+import { TimeStopwatch } from './TimeStopwatch';
+import { Welcome } from './Welcome';
 
 export {
   Alert,
@@ -76,4 +115,43 @@ export {
   Contacts,
   Copy,
   Delete,
+  Edit,
+  Email,
+  EyeHidden,
+  EyeVisible,
+  File,
+  Filter,
+  Fingerprint,
+  Gift,
+  GraphArrowUp,
+  GraphDots,
+  Home,
+  Invoice,
+  Lock,
+  LockUnlocked,
+  MenuNavigation,
+  Money,
+  MoneyHand,
+  MoneySign,
+  Notification,
+  NotificationEmpty,
+  PeopleUsers,
+  Person,
+  PersonAdd,
+  PersonCircle,
+  PinLocation,
+  Plus,
+  Question,
+  Reload,
+  Rocket,
+  Search,
+  SearchX,
+  Settings,
+  ShareAndroid,
+  ShareIOS,
+  SignOutOff,
+  Support,
+  TimeClock,
+  TimeStopwatch,
+  Welcome,
 };
