@@ -6,9 +6,9 @@ interface Props {
 }
 
 const Icon: React.FunctionComponent<Props> = props => (
-    <svg>
-        ${props.children}
-    </svg>
+  <svg>
+    ${props.children}
+  </svg>
 );
 
 export default Icon;
