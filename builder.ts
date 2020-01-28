@@ -10,7 +10,7 @@ async function generateIndex() {
   const index = files
     .map(file => {
       const typename = path.basename(file).replace('.tsx', '');
-      return `export { default as ${typename} } from './icons/${typename}';\n`;
+      return `export { ${typename} } from './icons/${typename}';\n`;
     })
     .join('');
 
