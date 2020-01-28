@@ -7,7 +7,7 @@ const StyleHeader = styled.header`
 
 const Header = props => (
   <StyleHeader>
-    <img src="./static/images/logo.svg"/>
+    <img src="./static/images/logo.svg" alt="Logo da Cora Bank"/>
   </StyleHeader>
 );
 
