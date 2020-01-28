@@ -20,7 +20,7 @@ const HeaderBanner = props => (
   <Main>
     <Container>
       <Header />
-      <Title />
+      <Title title={["Cora", <span>Icons</span>]} subtitle="A Icon Library to Cora Products" align="center" />
     </Container>
   </Main>
 );
