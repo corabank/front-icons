@@ -8,7 +8,7 @@ interface Props {
 
 export const PinLocation: React.FunctionComponent<Props> = props => (
   <StyledIcon {...props}>
-    <path d="M4.74609 10.1749C4.74609 13.4179 8.65909 18.1669 10.7381 20.4609C10.8975 20.6377 11.0922 20.779 11.3097 20.8758C11.5272 20.9725 11.7626 21.0225 12.0006 21.0225C12.2386 21.0225 12.474 20.9725 12.6915 20.8758C12.9089 20.779 13.1037 20.6377 13.2631 20.4609C15.3411 18.1669 19.2551 13.4179 19.2551 10.1749C19.2551 5.64895 15.5071 3.02295 12.0011 3.02295C8.49509 3.02295 4.74609 5.64895 4.74609 10.1749Z" stroke="#3B3B3B" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M12.0001 12.4109C13.1787 12.4109 14.1341 11.4555 14.1341 10.2769C14.1341 9.09837 13.1787 8.14295 12.0001 8.14295C10.8215 8.14295 9.86609 9.09837 9.86609 10.2769C9.86609 11.4555 10.8215 12.4109 12.0001 12.4109Z" stroke="#3B3B3B" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path stroke="#3B3B3B" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" d="M4.746 10.175c0 3.243 3.913 7.992 5.992 10.286a1.7 1.7 0 0 0 2.525 0c2.078-2.294 5.992-7.043 5.992-10.286 0-4.526-3.748-7.152-7.254-7.152-3.506 0-7.255 2.626-7.255 7.152z"/>
+    <path stroke="#3B3B3B" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit="10" d="M12 12.41a2.134 2.134 0 1 0 0-4.267 2.134 2.134 0 0 0 0 4.268z"/>
   </StyledIcon>
 )

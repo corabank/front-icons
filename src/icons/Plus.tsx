@@ -8,6 +8,6 @@ interface Props {
 
 export const Plus: React.FunctionComponent<Props> = props => (
   <StyledIcon {...props}>
-    <path d="M11.9995 12.4995C11.9995 12.2233 11.7757 11.9995 11.4995 11.9995C11.7757 11.9995 11.9995 11.7756 11.9995 11.4995C11.9995 11.7756 12.2234 11.9995 12.4995 11.9995C12.2234 11.9995 11.9995 12.2233 11.9995 12.4995Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+    <path stroke="#111" strokeLinecap="round" strokeLinejoin="round" d="M10 9.833a2 2 0 1 1 4 0c0 .8-.495 1.233-.989 1.567-.506.34-1.011.783-1.011 1.6v.25M12 21a9 9 0 1 1 0-18 9 9 0 0 1 0 18zm-.001-5a.25.25 0 1 0 .002.5A.25.25 0 0 0 12 16z"/>
   </StyledIcon>
 )

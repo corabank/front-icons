@@ -8,6 +8,6 @@ interface Props {
 
 export const Invoice: React.FunctionComponent<Props> = props => (
   <StyledIcon {...props}>
-    <path d="M10 11H14M14 14H10M10 17H12.394M7 12H5C3.895 12 3 10.977 3 9.714V6.286C3 5.023 3.895 4 5 4H19C20.105 4 21 5.023 21 6.286V9.715C21 10.977 20.105 12 19 12H17M7 21L9.5 20L12 21L14.5 20L17 21V8H7V21Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+    <path stroke="#3B3B3B" strokeLinecap="round" strokeLinejoin="round" d="M10 11h4m0 3h-4m0 3h2.394M7 12H5c-1.105 0-2-1.023-2-2.286V6.286C3 5.023 3.895 4 5 4h14c1.105 0 2 1.023 2 2.286v3.429C21 10.977 20.105 12 19 12h-2M7 21l2.5-1 2.5 1 2.5-1 2.5 1V8H7v13z"/>
   </StyledIcon>
 )

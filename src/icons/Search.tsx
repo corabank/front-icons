@@ -8,6 +8,6 @@ interface Props {
 
 export const Search: React.FunctionComponent<Props> = props => (
   <StyledIcon {...props}>
-    <path d="M14.155 14.063L20 19.99M9.971 15.775C13.2687 15.775 15.942 13.1017 15.942 9.80401C15.942 6.50632 13.2687 3.83301 9.971 3.83301C6.67331 3.83301 4 6.50632 4 9.80401C4 13.1017 6.67331 15.775 9.971 15.775Z" stroke="#111111" stroke-linecap="round" stroke-linejoin="round"/>
+    <path stroke="#111" strokeLinecap="round" strokeLinejoin="round" d="M14.155 14.063L20 19.99M9.971 15.775a5.971 5.971 0 1 0 0-11.942 5.971 5.971 0 0 0 0 11.942z"/>
   </StyledIcon>
 )

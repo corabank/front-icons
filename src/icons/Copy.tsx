@@ -8,7 +8,7 @@ interface Props {
 
 export const Copy: React.FunctionComponent<Props> = props => (
   <StyledIcon {...props}>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M19 21H11C9.89543 21 9 20.1046 9 19V11C9 9.89543 9.89543 9 11 9H19C20.1046 9 21 9.89543 21 11V19C21 20.1046 20.1046 21 19 21Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
-    <path fill-rule="evenodd" clip-rule="evenodd" d="M13 15H5C3.89543 15 3 14.1046 3 13V5C3 3.89543 3.89543 3 5 3H13C14.1046 3 15 3.89543 15 5V13C15 14.1046 14.1046 15 13 15Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+    <path fillRule="evenodd" stroke="#3B3B3B" strokeLinecap="round" strokeLinejoin="round" d="M19 21h-8a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2z" clipRule="evenodd"/>
+    <path fillRule="evenodd" stroke="#3B3B3B" strokeLinecap="round" strokeLinejoin="round" d="M13 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2z" clipRule="evenodd"/>
   </StyledIcon>
 )

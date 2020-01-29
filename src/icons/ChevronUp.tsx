@@ -8,6 +8,6 @@ interface Props {
 
 export const ChevronUp: React.FunctionComponent<Props> = props => (
   <StyledIcon {...props}>
-    <path d="M18 15L11.9987 9L6 14.9967" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+    <path stroke="#3B3B3B" strokeLinecap="round" strokeLinejoin="round" d="M18 15l-6.001-6L6 14.997"/>
   </StyledIcon>
 )
