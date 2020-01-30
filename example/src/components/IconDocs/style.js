@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  display: flex;
+  display: grid;
+  grid-column-gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-rows: auto;
+  grid-row-gap: 15px;
   padding: 36px 0;
   flex-wrap: wrap;
 `;
@@ -9,15 +13,6 @@ export const Container = styled.section`
 export const IconCard = styled.div`
   border: 1px solid #C7CBCF;
   border-radius: 5px;
-  margin: 10px;
-
-  &:first-child {
-    margin-left: 0;
-  }
-
-  &:last-child {
-    margin-right: 0;
-  }
 `;
 
 export const IconWrapper = styled.div`
@@ -25,7 +20,7 @@ export const IconWrapper = styled.div`
   display: flex;
   height: 150px;
   justify-content: center;
-  width: 150px;
+  width: 100%;
 `;
 
 export const IconName = styled.div`
