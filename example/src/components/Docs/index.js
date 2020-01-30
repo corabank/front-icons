@@ -1,13 +1,16 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import CodeBlock from '../CodeBlock';
 
+const DocsStyle = styled.section`
+  padding: 30px 0;
+`;
+
 const Docs = props => (
-  <React.Fragment>
-    <p>To install the Icon Library use NPM or Yarn:</p>
-    <CodeBlock>npm i @corabank/icons</CodeBlock>
-    <CodeBlock>yarn add @corabank/icons</CodeBlock>
-  </React.Fragment>
+  <DocsStyle>
+    {props.children}
+  </DocsStyle>
 );
 
 export default Docs;
