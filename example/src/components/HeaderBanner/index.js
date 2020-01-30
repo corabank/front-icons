@@ -2,7 +2,7 @@ import React from 'react';
 
 import Header from '../Header';
 
-import { Main, Container, TitleContainer, TitleStyle, Description} from './style';
+import { Main, Container, TitleContainer, Title, Description} from './style';
 
 const HeaderBanner = props => (
   <Main>
