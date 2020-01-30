@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import HeaderBanner from './components/HeaderBanner'
 import Title from './components/Title';
+import Docs from './components/Docs';
 import IconDocs from './components/IconDocs';
 
 const Container = styled.div`
@@ -10,7 +11,6 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  height: 50vh;
 `;
 
 export default class App extends Component {
@@ -19,7 +19,11 @@ export default class App extends Component {
       <React.Fragment>
         <HeaderBanner />
         <Container>
-          <Title title="Iconography" align="flex-start" />
+          <Title title="Install" />
+          <Docs />
+        </Container>
+        <Container>
+          <Title title="Iconography" />
           <IconDocs />
         </Container>
       </React.Fragment>
