@@ -26,6 +26,13 @@ class Example extends React.Component {
 }
 ```
 
+## Props
+
+| name | type | default | description |
+| ---- | ---- | ------- | ----------- |
+| size | string | small | Define size of the icon, values permited: small, medium, big |
+| color | string | #3B3B3B | Define color of the icon, use hexadecimal color |
+
 ## License
 
-MIT © [williamcosta](https://github.com/williamcosta)
+MIT ©
