@@ -1,8 +1,8 @@
 import * as React from 'react';
 
 interface Props {
-    size: string,
-    children: any,
+  size: string;
+  children: any;
 }
 
 enum Sizes {
@@ -11,7 +11,7 @@ enum Sizes {
   big = 48,
 }
 
-const Icon: React.FunctionComponent<Props> = props => {
+const Icon: React.FunctionComponent<Props> = (props) => {
   return (
     <svg height={Sizes[props.size]} width={Sizes[props.size]} viewBox="0 0 24 24" fill="none">
       {props.children}
@@ -21,6 +21,6 @@ const Icon: React.FunctionComponent<Props> = props => {
 
 Icon.defaultProps = {
   size: 'small',
-}
+};
 
 export default Icon;
