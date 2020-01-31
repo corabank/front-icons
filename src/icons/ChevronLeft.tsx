@@ -1,13 +1,15 @@
 import * as React from 'react';
 
+import PropsInterface from './interface';
+
 import StyledIcon from '../StyledIcon';
 
-interface Props {
-  size: string
-}
-
-export const ChevronLeft: React.FunctionComponent<Props> = props => (
+export const ChevronLeft: React.FunctionComponent<PropsInterface> = (props) => (
   <StyledIcon {...props}>
-    <path stroke="#3B3B3B" strokeLinecap="round" strokeLinejoin="round" d="M15 6l-6 6.001L14.997 18"/>
+    <path stroke={props.color} strokeLinecap="round" strokeLinejoin="round" d="M15 6l-6 6.001L14.997 18"/>
   </StyledIcon>
-)
+);
+
+ChevronLeft.defaultProps = {
+  color: '#3B3B3B',
+};
