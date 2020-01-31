@@ -1,6 +1,6 @@
 interface Props {
-  size: string,
-  color: string
+  size: string;
+  color: string;
 }
 
 export default Props;
