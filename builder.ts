@@ -8,7 +8,7 @@ const globAsync = util.promisify(glob);
 async function generateIndex() {
   const files = await globAsync(path.join('./src/icons/', '*.tsx'));
   const index = files
-    .map(file => {
+    .map((file: string) => {
       const typename = path.basename(file).replace('.tsx', '');
       return `export { ${typename} } from './icons/${typename}';\n`;
     })
@@ -21,7 +21,7 @@ async function main() {
   try {
     await generateIndex();
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 }
 
