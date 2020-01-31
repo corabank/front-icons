@@ -6,10 +6,13 @@
   "private": true,
   "dependencies": {
     "@corabank/icons": "file:..",
-    "prop-types": "^15.6.2",
+    "prop-types": "^15.7.2",
     "react": "^16.4.1",
+    "react-code-blocks": "0.0.7",
     "react-dom": "^16.4.1",
+    "react-markdown": "^4.3.1",
     "react-scripts": "^1.1.4",
+    "react-syntax-highlighter": "^12.2.1",
     "styled-components": "^5.0.0"
   },
   "scripts": {
