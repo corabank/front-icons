@@ -17,7 +17,7 @@
     "build": "rollup -c",
     "start": "rollup -c -w",
     "prepare": "npm run create:index && npm run build",
-    "create:index": "babel-node --debug --presets es2015 -- ./builder.ts --debug",
+    "create:index": "ts-node ./builder.ts",
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
@@ -28,7 +28,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",
-    "@babel/node": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@rollup/plugin-node-resolve": "^7.0.0",
     "@rollup/plugin-url": "^4.0.1",
@@ -51,6 +50,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^1.6.2",
     "rollup-plugin-typescript2": "^0.17.0",
+    "ts-node": "^8.6.2",
     "tslint": "^6.0.0",
     "typescript": "^2.9.2",
     "util": "^0.12.1"

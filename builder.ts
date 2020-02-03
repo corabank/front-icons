@@ -20,6 +20,8 @@ async function generateIndex() {
 async function main() {
   try {
     await generateIndex();
+
+    console.info('Index file success created!');
   } catch (err) {
     console.error(err);
   }
