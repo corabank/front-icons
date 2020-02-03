@@ -15,12 +15,12 @@ npm install --save @corabank/icons
 ```tsx
 import * as React from 'react'
 
-import MyComponent from '@corabank/icons'
+import { Alert } from '@corabank/icons'
 
 class Example extends React.Component {
   render () {
     return (
-      <MyComponent />
+      <Alert />
     )
   }
 }
