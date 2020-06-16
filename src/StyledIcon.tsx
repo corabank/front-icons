@@ -6,9 +6,9 @@ interface Props {
 }
 
 enum Sizes {
-  small = 24,
-  medium = 36,
-  big = 48,
+  small = 16,
+  medium = 24,
+  big = 32,
 }
 
 const Icon: React.FunctionComponent<Props> = (props) => {
