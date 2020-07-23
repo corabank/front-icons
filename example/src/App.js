@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
-import styled from 'styled-components';
+import React, { Component } from "react";
+import styled from "styled-components";
 
-import HeaderBanner from './components/HeaderBanner'
-import Title from './components/Title';
-import Docs from './components/Docs';
-import IconDocs from './components/IconDocs';
+import HeaderBanner from "./components/HeaderBanner";
+import Title from "./components/Title";
+import Docs from "./components/Docs";
+import IconDocs from "./components/IconDocs";
+import IconBackground from "./components/IconBackground";
 
 const Container = styled.div`
   max-width: 1280px;
@@ -14,7 +15,7 @@ const Container = styled.div`
 `;
 
 export default class App extends Component {
-  render () {
+  render() {
     return (
       <React.Fragment>
         <HeaderBanner />
@@ -25,7 +26,11 @@ export default class App extends Component {
           <Title title="Iconography" />
           <IconDocs />
         </Container>
+        <Container>
+          <Title title="Background Icon" />
+          <IconBackground />
+        </Container>
       </React.Fragment>
-    )
+    );
   }
 }
