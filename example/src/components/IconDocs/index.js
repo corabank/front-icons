@@ -60,6 +60,7 @@ import {
   PersonCircle,
   PersonAdd,
   PeopleUsers,
+  Phone,
   Plus,
   Question,
   Settings,
@@ -444,6 +445,12 @@ const IconDocs = (props) => {
             <PeopleUsers size="big" />
           </IconWrapper>
           <IconName>PeopleUsers</IconName>
+        </IconCard>
+        <IconCard>
+          <IconWrapper>
+            <Phone size="big" />
+          </IconWrapper>
+          <IconName>Phone</IconName>
         </IconCard>
         <IconCard>
           <IconWrapper>

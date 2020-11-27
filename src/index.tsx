@@ -61,6 +61,7 @@ export { PeopleUsers } from './icons/PeopleUsers';
 export { Person } from './icons/Person';
 export { PersonAdd } from './icons/PersonAdd';
 export { PersonCircle } from './icons/PersonCircle';
+export { Phone } from './icons/Phone';
 export { PinLocation } from './icons/PinLocation';
 export { Plus } from './icons/Plus';
 export { Question } from './icons/Question';
