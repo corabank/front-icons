@@ -1,5 +1,5 @@
 import React from "react";
-import { Rocket, Welcome } from "@corabank/icons";
+import { Welcome } from "@corabank/icons";
 
 import { Container, IconCard, IconName, IconWrapper } from "../IconDocs/style";
 
