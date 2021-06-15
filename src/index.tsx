@@ -55,6 +55,7 @@ export { MenuNavigation } from './icons/MenuNavigation';
 export { Money } from './icons/Money';
 export { MoneyHand } from './icons/MoneyHand';
 export { MoneySign } from './icons/MoneySign';
+export { MultipleBankslip } from './icons/MultipleBankslip'
 export { Notification } from './icons/Notification';
 export { NotificationEmpty } from './icons/NotificationEmpty';
 export { PeopleUsers } from './icons/PeopleUsers';
@@ -64,6 +65,7 @@ export { PersonCircle } from './icons/PersonCircle';
 export { Phone } from './icons/Phone';
 export { PinLocation } from './icons/PinLocation';
 export { Plus } from './icons/Plus';
+export { QRCode } from './icons/QRCode'
 export { Question } from './icons/Question';
 export { Reload } from './icons/Reload';
 export { Rocket } from './icons/Rocket';

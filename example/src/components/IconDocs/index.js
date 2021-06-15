@@ -78,6 +78,8 @@ import {
   Rocket,
   PinLocation,
   Welcome,
+  MultipleBankslip,
+  QRCode,
 } from "@corabank/icons";
 
 import { Container, IconCard, IconName, IconWrapper } from "./style";
@@ -532,6 +534,12 @@ const IconDocs = (props) => {
         </IconCard>
         <IconCard>
           <IconWrapper>
+            <MultipleBankslip size="big" />
+          </IconWrapper>
+          <IconName>MultipleBankslip</IconName>
+        </IconCard>
+        <IconCard>
+          <IconWrapper>
             <Rocket size="big" />
           </IconWrapper>
           <IconName>Rocket</IconName>
@@ -553,6 +561,12 @@ const IconDocs = (props) => {
             <Welcome size="big" />
           </IconWrapper>
           <IconName>Welcome</IconName>
+        </IconCard>
+        <IconCard>
+          <IconWrapper>
+            <QRCode size="big" />
+          </IconWrapper>
+          <IconName>QRCode</IconName>
         </IconCard>
       </Container>
     </React.Fragment>
