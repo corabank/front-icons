@@ -2,12 +2,12 @@ import * as React from 'react';
 
 import PropsInterface from './interface';
 
-import StyledIcon from '../StyledIcon';
+import Icon from '../components/Icon';
 
 export const ChevronLeft: React.FunctionComponent<PropsInterface> = (props) => (
-  <StyledIcon {...props}>
+  <Icon {...props}>
     <path stroke={props.color} strokeLinecap="round" strokeLinejoin="round" d="M15 6l-6 6.001L14.997 18"/>
-  </StyledIcon>
+  </Icon>
 );
 
 ChevronLeft.defaultProps = {
