@@ -3,5 +3,5 @@ export interface IconProps {
   background?: boolean;
   backgroundColor?: string;
   children: any;
-  viewBox: string;
+  viewBox?: string;
 }
