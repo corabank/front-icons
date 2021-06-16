@@ -5,7 +5,12 @@ import { Sizes } from './enum'
 
 import { StyledBackground } from './styled'
 
-const Icon: React.FunctionComponent<IconProps> = ({ children, size = "small", background = false, backgroundColor = "#eaf7ff" }) => {
+const Icon: React.FunctionComponent<IconProps> = ({
+  children,
+  size = "small",
+  background = false,
+  backgroundColor = "#eaf7ff"
+}) => {
   if (background) {
     return (
       <StyledBackground className="icon-background" backgroundColor={backgroundColor}>

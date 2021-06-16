@@ -7,13 +7,13 @@
   "dependencies": {
     "@corabank/icons": "file:..",
     "prop-types": "^15.7.2",
-    "react": "^16.4.1",
+    "react": "file:../node_modules/react",
     "react-code-blocks": "0.0.7",
-    "react-dom": "^16.4.1",
+    "react-dom": "file:../node_modules/react-dom",
     "react-markdown": "^4.3.1",
     "react-scripts": "^1.1.4",
     "react-syntax-highlighter": "^12.2.1",
-    "styled-components": "^5.0.0"
+    "styled-components": "file:../node_modules/styled-components"
   },
   "scripts": {
     "start": "react-scripts start",
