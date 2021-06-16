@@ -9,7 +9,8 @@ const Icon: React.FunctionComponent<IconProps> = ({
   children,
   size = "small",
   background = false,
-  backgroundColor = "#eaf7ff"
+  backgroundColor = "#eaf7ff",
+  viewBox = "0 0 24 24"
 }) => {
   if (background) {
     return (
@@ -17,7 +18,7 @@ const Icon: React.FunctionComponent<IconProps> = ({
         <svg
           height={Sizes[size]}
           width={Sizes[size]}
-          viewBox="0 0 24 24"
+          viewBox={viewBox}
           fill="none"
         >
           {children}
@@ -30,8 +31,9 @@ const Icon: React.FunctionComponent<IconProps> = ({
     <svg
       height={Sizes[size]}
       width={Sizes[size]}
-      viewBox="0 0 24 24"
+      viewBox={viewBox}
       fill="none"
+      xmlns="http://www.w3.org/2000/svg"
     >
       {children}
     </svg>

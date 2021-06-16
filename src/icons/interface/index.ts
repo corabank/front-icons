@@ -3,6 +3,7 @@ interface Props {
   color: string;
   background?: boolean;
   backgroundColor?: string;
+  viewBox: string;
 }
 
 export default Props;

@@ -23,4 +23,5 @@ export const MultipleBankslip: React.FunctionComponent<PropsInterface> = (props)
 
 MultipleBankslip.defaultProps = {
   color: '#3B3B3B',
+  viewBox: "0 0 19.5 20.3"
 };
