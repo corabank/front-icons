@@ -1,8 +1,6 @@
-interface Props {
+export interface IconProps {
   size: string;
-  color: string;
   background?: boolean;
   backgroundColor?: string;
+  children: any;
 }
-
-export default Props;

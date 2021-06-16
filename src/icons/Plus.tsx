@@ -2,12 +2,12 @@ import * as React from 'react';
 
 import PropsInterface from './interface';
 
-import StyledIcon from '../StyledIcon';
+import Icon from '../components/Icon';
 
 export const Plus: React.FunctionComponent<PropsInterface> = (props) => (
-  <StyledIcon {...props}>
+  <Icon {...props}>
     <path stroke={props.color} strokeLinecap="round" strokeLinejoin="round" d="M10.8327 11.666C10.8327 11.3899 10.6089 11.166 10.3327 11.166H1.66471C1.57267 11.166 1.49805 11.0914 1.49805 10.9994C1.49805 10.9073 1.57267 10.8327 1.66471 10.8327H10.3327C10.6089 10.8327 10.8327 10.6089 10.8327 10.3327V1.66471C10.8327 1.57267 10.9073 1.49805 10.9994 1.49805C11.0914 1.49805 11.166 1.57267 11.166 1.66471V10.3327C11.166 10.6089 11.3899 10.8327 11.666 10.8327H20.334C20.4261 10.8327 20.5007 10.9073 20.5007 10.9994C20.5007 11.0914 20.4261 11.166 20.334 11.166H11.666C11.3899 11.166 11.166 11.3899 11.166 11.666V20.334C11.166 20.4261 11.0914 20.5007 10.9994 20.5007C10.9073 20.5007 10.8327 20.4261 10.8327 20.334V11.666Z"/>
-  </StyledIcon>
+  </Icon>
 )
 
 Plus.defaultProps = {
