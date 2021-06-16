@@ -5,7 +5,7 @@ import PropsInterface from './interface';
 import Icon from '../components/Icon';
 
 export const MultipleBankslip: React.FunctionComponent<PropsInterface> = (props) => (
-  <Icon {...props}>
+  <Icon {...props} viewBox="0 0 19.5 20.3">
     <g>
       <path fill={props.color} d="M18.8,3.6l-2.8-2.8l0,0C15.5,0.3,14.8,0,14.2,0h0H7C6.2,0,5.5,0.4,5,1c0,0,0,0,0,0l-3,0.8l0,0
         c-1.3,0.3-2.2,1.7-1.9,3l3.2,13.6c0.3,1.3,1.7,2.2,3,1.9l0,0l5.2-1.3H17c1.4,0,2.5-1.1,2.5-2.5V5.3v0C19.5,4.7,19.2,4,18.8,3.6z
@@ -23,5 +23,4 @@ export const MultipleBankslip: React.FunctionComponent<PropsInterface> = (props)
 
 MultipleBankslip.defaultProps = {
   color: '#3B3B3B',
-  viewBox: "0 0 19.5 20.3"
 };
