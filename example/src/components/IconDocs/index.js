@@ -80,6 +80,7 @@ import {
   Welcome,
   MultipleBankslip,
   QRCode,
+  Download,
 } from "@corabank/icons";
 
 import { Container, IconCard, IconName, IconWrapper } from "./style";
@@ -567,6 +568,12 @@ const IconDocs = (props) => {
             <QRCode size="big" />
           </IconWrapper>
           <IconName>QRCode</IconName>
+        </IconCard>
+        <IconCard>
+          <IconWrapper>
+            <Download size="big" />
+          </IconWrapper>
+          <IconName>Download</IconName>
         </IconCard>
       </Container>
     </React.Fragment>
