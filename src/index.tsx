@@ -36,6 +36,7 @@ export { Close } from './icons/Close';
 export { Contacts } from './icons/Contacts';
 export { Copy } from './icons/Copy';
 export { Delete } from './icons/Delete';
+export { Download } from './icons/Download';
 export { Edit } from './icons/Edit';
 export { Email } from './icons/Email';
 export { EyeHidden } from './icons/EyeHidden';
